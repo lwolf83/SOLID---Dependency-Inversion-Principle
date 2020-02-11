@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID - Dependency Inversion Principle", "SOLID - Dependency Inversion Principle.csproj", "{ABD6B4D8-34AA-4C6D-9C9D-FC9C80D1FC92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABD6B4D8-34AA-4C6D-9C9D-FC9C80D1FC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD6B4D8-34AA-4C6D-9C9D-FC9C80D1FC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD6B4D8-34AA-4C6D-9C9D-FC9C80D1FC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD6B4D8-34AA-4C6D-9C9D-FC9C80D1FC92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E76314B8-BA1B-4E11-B301-1284E1C2C6C1}
+	EndGlobalSection
+EndGlobal
