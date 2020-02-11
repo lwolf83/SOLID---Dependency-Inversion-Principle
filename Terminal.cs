@@ -5,9 +5,10 @@ using System.Text;
 namespace SOLID___Dependency_Inversion_Principle
 {
 
-    public class Terminal : DataInput
+    public class Terminal : IDataInput
     {
-
+        public bool Exited { get; set; }
+        private string _promptString;
 
         public Terminal()
         {
@@ -15,20 +16,20 @@ namespace SOLID___Dependency_Inversion_Principle
             Exited = false;
         }
 
-        public override Command PromptCommand()
+        public Command PromptCommand()
         {
             string commandLine = Prompt();
             return new Command(commandLine);
         }
 
-        public override string Prompt()
+        public string Prompt()
         {
             Console.Write(_promptString);
             string userCommand = Console.ReadLine();
             return userCommand;
         }
 
-        public override void ExecuteCommand(Command command)
+        public void ExecuteCommand(Command command)
         {
             try
             {

@@ -8,7 +8,7 @@ public class Program
 {
     public static void Main()
     {
-        DataInput terminal = new Terminal();
+        IDataInput terminal = new Terminal();
         while (!terminal.Exited)
         {
             Command command = terminal.PromptCommand();

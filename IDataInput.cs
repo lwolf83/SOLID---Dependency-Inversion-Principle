@@ -4,9 +4,9 @@ using System.Text;
 
 namespace SOLID___Dependency_Inversion_Principle
 {
-    public abstract class DataInput
+    public interface IDataInput
     {
-        protected string _promptString;
+      
         public bool Exited { get; set; }
 
         public abstract Command PromptCommand();
